@@ -14,7 +14,6 @@
 int main(void)
 
 {
-	
 	int n, lastd;
 
 	srand(time(0));
@@ -36,4 +35,3 @@ int main(void)
 	return (0);	
 
 }
-
