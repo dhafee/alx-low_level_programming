@@ -6,7 +6,7 @@
  * Return: A integer
  */
 
-int _atoil(char *s)
+int _atoi(char *s)
 
 {
         int c = 0;
@@ -30,3 +30,9 @@ int _atoil(char *s)
         {
         break;
         }
+	c++;
+	}
+	ni *= min;
+	return (ni);
+
+}
